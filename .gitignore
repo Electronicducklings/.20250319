@@ -1,0 +1,24 @@
+# Qt Creator个人配置
+*.pro.user
+*.pro.user.*
+
+# Qt构建目录
+build-*/
+**/build-*/
+
+# 编译生成文件
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+
+# Qt自动生成文件
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+.qmake.stash
+
+# Makefile
+Makefile
+Makefile.*
